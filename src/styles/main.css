@@ -271,16 +271,18 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .footer-slogan { margin-top: 14px; font-size: 12px; color: var(--text-faint); letter-spacing: 0.08em; }
 .footer-socials { display: flex; gap: 12px; margin-top: 20px; }
 .footer-social {
-  width: 36px; height: 36px; display: flex; align-items: center; justify-content: center;
-  border: 1px solid var(--glass-border); border-radius: 999px;
+  flex: 0 0 36px; width: 36px; height: 36px; position: relative;
+  border: 1px solid var(--glass-border); border-radius: 10px;
   color: var(--text-dim);
-  transition: color 0.25s var(--ease), border-color 0.25s var(--ease), transform 0.25s var(--ease);
+  transition: color 0.25s var(--ease), transform 0.25s var(--ease);
 }
-.footer-social:hover { color: var(--accent); border-color: rgba(48, 209, 88, 0.5); transform: translateY(-2px); }
-.f-row { display: flex; align-items: baseline; gap: 14px; margin-bottom: 10px; }
+.footer-social svg { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); }
+.footer-col .footer-social:hover { color: var(--plat); transform: translateY(-2px); }
+.f-row { display: block; margin-bottom: 10px; }
 .f-row span {
-  font-family: var(--mono); font-size: 11px; letter-spacing: 0.18em;
-  color: var(--text-faint); flex: none;
+  display: inline-block; width: 130px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em;
+  color: var(--text-faint);
 }
 .f-row b { font-size: 13px; font-weight: 600; color: var(--text-dim); }
 a.f-row:hover b { color: var(--accent); }

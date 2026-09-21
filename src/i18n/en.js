@@ -76,7 +76,8 @@ export default {
     icp: 'ICP',
     contact: 'Contact',
     emailL: 'Email',
-    wechatL: 'WeChat Official Account',
+    coopL: 'Cooperation',
+    wechatL: 'WeChat Account',
     socials: {
       xhs: 'Xiaohongshu',
       feishu: 'Feishu Group',

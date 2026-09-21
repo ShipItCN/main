@@ -6,12 +6,13 @@ export const ICP = {
 }
 
 export const SOCIALS = [
-  { key: 'xhs', url: 'https://xhslink.com/m/2kvRTt13UXN' },
-  { key: 'feishu', url: 'https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=64djf076-c207-4b7f-9251-3546831effe9' },
-  { key: 'afdian', url: 'https://ifdian.net/a/ShipIt' },
+  { key: 'xhs', url: 'https://xhslink.com/m/2kvRTt13UXN', color: '#ff2442' },
+  { key: 'feishu', url: 'https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=64djf076-c207-4b7f-9251-3546831effe9', color: '#3370ff' },
+  { key: 'afdian', url: 'https://ifdian.net/a/ShipIt', color: '#946ce6' },
 ]
 
 export const EMAIL = 'support@shipit.cn'
+export const COOP_EMAIL = 'contact@shipit.cn'
 export const WECHAT_NAME = 'ShipIt Hackathon'
 
 export const FRIEND_LINKS = []

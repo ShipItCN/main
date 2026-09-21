@@ -76,6 +76,7 @@ export default {
     icp: 'ICP 备案',
     contact: '联系方式',
     emailL: '邮箱',
+    coopL: '合作邮箱',
     wechatL: '微信公众号',
     socials: {
       xhs: '小红书',
