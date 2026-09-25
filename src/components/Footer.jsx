@@ -1,5 +1,5 @@
 import { useLang } from '../i18n/Lang'
-import { ICP, SOCIALS, FRIEND_LINKS, EMAIL, COOP_EMAIL, WECHAT_NAME } from '../config'
+import { ICP, GA_BEIAN, SOCIALS, FRIEND_LINKS, EMAIL, COOP_EMAIL, WECHAT_NAME } from '../config'
 import ShipitLogo from './ShipitLogo'
 
 function Svg({ vb, children, size = 18 }) {
@@ -61,6 +61,10 @@ export default function Footer() {
         <div className="footer-col">
           <i>{t('footer.icp')}</i>
           <a href={ICP.url} target="_blank" rel="noopener noreferrer">{ICP.no}</a>
+          <a className="ga-beian" href={GA_BEIAN.url} target="_blank" rel="noopener noreferrer">
+            <img src={GA_BEIAN.img} alt="" />
+            {GA_BEIAN.no}
+          </a>
         </div>
         <div className="footer-col">
           <i>{t('footer.contact')}</i>

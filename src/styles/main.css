@@ -268,6 +268,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   margin-bottom: 9px; transition: color 0.2s var(--ease);
 }
 .footer-col a:hover { color: var(--accent); }
+.ga-beian img { height: 14px; width: auto; vertical-align: -2px; margin-right: 4px; }
 .footer-slogan { margin-top: 14px; font-size: 12px; color: var(--text-faint); letter-spacing: 0.08em; }
 .footer-socials { display: flex; gap: 12px; margin-top: 20px; }
 .footer-social {

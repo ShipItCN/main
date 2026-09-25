@@ -5,6 +5,12 @@ export const ICP = {
   url: 'https://beian.miit.gov.cn/',
 }
 
+export const GA_BEIAN = {
+  no: '辽公网安备21020402001128号',
+  url: 'https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=21020402001128',
+  img: 'https://beian.mps.gov.cn/img/logo01.dd7ff50e.png',
+}
+
 export const SOCIALS = [
   { key: 'xhs', url: 'https://xhslink.com/m/2kvRTt13UXN', color: '#ff2442' },
   { key: 'feishu', url: 'https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=64djf076-c207-4b7f-9251-3546831effe9', color: '#3370ff' },
